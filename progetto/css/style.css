@@ -1,0 +1,250 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.custom-navbar{
+    height: 90px;
+    min-height: 90px;
+    max-height: 90px;
+}
+
+.first-container{
+    width: 100%;
+    height: 75%;
+    background-image: url("../img/mountain.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 152px;
+    padding-top: 230px;
+}
+
+.main-container{
+    width: 100%;
+    height: calc(100% - 90px);
+    overflow-y: auto;
+}
+
+.custom-container-mountain{
+    width: 570px;
+    height: 210px;
+}
+
+.custom-ms-10{
+    margin-left: 10%;
+}
+
+.second-container{
+    width: 100%;
+    height: 564px;
+    background: #F2F2F2;
+}
+
+.drop-container{
+    width: 250px;
+    height: 266px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 25px rgba(0, 78, 144, 0.1);
+}
+
+.third-container{
+    width: 100%;
+    height: 383px;
+    background: linear-gradient(180deg, #F2F2F2 39.06%, #FFFFFF 100%);
+}
+
+.custom-w-17{
+    width: 17%;
+}
+
+.custom-w-40{
+    width: 40%;
+}
+
+.fourth-container{
+    width: 100%;
+    height: 480px;
+    padding: 3rem;
+}
+
+.custom-w-50{
+    width: 50%;
+}
+
+.fifth-container{
+    width: 100%;
+    height: 221px;
+    background: linear-gradient(0deg, #8C3B3B, #8C3B3B), #F25757;
+
+}
+
+.sixth-container{
+    width: 100%;
+    height: 42.61px;
+    background: #0D0C0C;
+}
+
+.ms-custom-100{
+    margin-left: 100px;
+}
+
+.mr-custom-100{
+    margin-right: 100px;
+}
+
+
+#fisrt-p{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 1px;
+    color: #3D3D3D;
+}
+
+#second-p{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 36px;
+    color: #F2594B;
+}
+
+#third-p{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 36px;
+    color: #0D0C0C;
+}
+
+#fourth-p{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #3D3D3D;
+}
+
+#fifth-p{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+#sixth-p{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    color: #F2F2F2;
+}
+
+#first-drop-color{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 24px;
+    color: #8C3B3B;
+}
+
+#second-drop-color{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 24px;
+    color: #F25757;
+}
+
+#third-drop-color{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 24px;
+    color: #F2594B;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .ms-custom-100{
+        margin-left: 50px;
+    }
+    
+    .mr-custom-100{
+        margin-right: 0;
+    }
+
+    .first-container{
+        padding-left: 15px;
+        padding-top: 100px;
+    }
+    
+    .custom-container-mountain{
+        width: 358px;
+        height: 390px;
+    }
+
+    .second-container{
+        width: 100%;
+        height: 1200px;
+    }
+
+    .custom-container-drop{
+        flex-wrap: wrap;
+    }
+
+    .drop-container{
+        margin-bottom: 2rem;
+    }
+
+    .third-container{
+        width: 100%;
+        height: 600px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .custom-w-17{
+        width: 100%;    
+    }
+
+    .custom-w-40{
+        width: 100%;
+    }
+
+    .fourth-container{
+        width: 100%;
+        padding: 1.5rem;
+        height: auto;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .custom-w-50{
+        width: 90%;
+    }
+    
+    .custom-ms-10{
+        margin-left: 4%;
+    }
+
+    .fifth-container{
+        width: 100%;
+        height: 250px;
+        flex-direction: column;
+    }
+}
